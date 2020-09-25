@@ -19,6 +19,7 @@
   },
   "homepage": "https://github.com/JulesFouchy/October-Procedural-Drawings-2020#readme",
   "dependencies": {
+    "@types/node": "^14.11.2",
     "p5": "^1.1.9"
   },
   "devDependencies": {

@@ -1,3 +1,36 @@
+// ----------------------
+// Make p5 fill the background
+// ----------------------
 body { 
     margin: 0px;
+}
+#defaultCanvas0 {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    z-index: -999;
+}
+
+// ----------------------
+// 
+// ----------------------
+
+#themes-list {
+    border: solid red;
+}
+
+.theme {
+    
+}
+
+.theme-past {
+    color: yellow;
+}
+
+.theme-present {
+    color: red;
+}
+
+.theme-future {
+    color: gray;
 }

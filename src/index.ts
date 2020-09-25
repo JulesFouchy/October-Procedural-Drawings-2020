@@ -1,5 +1,13 @@
 import themes from "./ThemesList"
+import Theme from './components/Theme'
 import p5 from "p5"
+
+const themesList = document.getElementById("themes-list")
+let k = 1
+themes.forEach(theme => {
+  themesList.innerHTML += Theme(theme, k)
+  k++
+})
 
 const sketch = new p5((p: p5) => {
 
