@@ -1,0 +1,30 @@
+{
+  "name": "october-procedural-drawings-2020",
+  "version": "1.0.0",
+  "description": "October-Procedural-Drawings-2020",
+  "main": "index.js",
+  "scripts": {
+    "dev": "cross-env DEBUG=true parcel ./src/index.html",
+    "prebuild": "rmdir docs /s /q",
+    "build": "parcel build ./src/index.html --out-dir docs --public-url ./"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JulesFouchy/October-Procedural-Drawings-2020.git"
+  },
+  "author": "Jules Fouchy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JulesFouchy/October-Procedural-Drawings-2020/issues"
+  },
+  "homepage": "https://github.com/JulesFouchy/October-Procedural-Drawings-2020#readme",
+  "dependencies": {
+    "p5": "^1.1.9"
+  },
+  "devDependencies": {
+    "cross-env": "^7.0.2",
+    "parcel": "^1.12.4",
+    "sass": "^1.26.11",
+    "typescript": "^4.0.3"
+  }
+}
