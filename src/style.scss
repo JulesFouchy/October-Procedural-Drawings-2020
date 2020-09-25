@@ -17,10 +17,13 @@ body {
 
 #themes-list {
     border: solid red;
+
+    display: flex;
+    justify-content: center;
 }
 
 .theme {
-    
+
 }
 
 .theme-past {
@@ -33,4 +36,9 @@ body {
 
 .theme-future {
     color: gray;
+}
+
+.column {
+    margin: 10px;
+    background-color: black;
 }

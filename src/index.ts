@@ -1,13 +1,17 @@
-import themes from "./ThemesList"
+import themes from './ThemesList'
 import Theme from './components/Theme'
-import p5 from "p5"
+import p5 from 'p5'
+import h from './framework/h'
 
-const themesList = document.getElementById("themes-list")
-let k = 1
-themes.forEach(theme => {
-  themesList.innerHTML += Theme(theme, k)
-  k++
-})
+const themesHTML = document.getElementById("themes-list")
+themesHTML.innerHTML += h('div', {id: 'column-1', class: 'column'}, 
+  themes.slice(0, 15)
+        .map((theme, idx) => Theme(theme, idx+1))
+)
+themesHTML.innerHTML += h('div', {id: 'column-2', class: 'column'}, 
+  themes.slice(15, 32)
+        .map((theme, idx) => Theme(theme, idx+16))
+)
 
 const sketch = new p5((p: p5) => {
 
