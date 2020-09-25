@@ -1,4 +1,4 @@
-export default (tag, props, children) => {
+export default (tag: String, props: Object, children?: String[] | String) => {
     let html = "<" + tag 
     for (const [key, value] of Object.entries(props)) {
         html += " " + key + "=\"" + value + "\""
