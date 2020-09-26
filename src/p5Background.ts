@@ -9,8 +9,6 @@ new p5((p: p5) => {
 
     const drawBackground = () => {
         p.shader(bgShader)
-        bgShader.setUniform("width",  p.width)
-        bgShader.setUniform("height", p.height)
         p.rect(0, 0, p.width, p.height)
     }
 

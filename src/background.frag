@@ -1,9 +1,5 @@
 precision mediump float;
 
-uniform float width;
-uniform float height;
-varying vec2 vTexCoord;
-
 const float dirA = 10. / 180. * 3.1415926536;
 const vec2 dir = vec2(cos(dirA), sin(dirA));
 const vec2 nor = vec2(-dir.y, dir.x);
@@ -49,11 +45,9 @@ void main()
     vec2 uv = gl_FragCoord.xy;
     vec3 col = vec3(0.);
     
-    //uv -= nor * spacing * 0.5;
     col += lines(uv);
     uv.y *= -1.;
     col += lines(uv);
-    //col += vec3(uv, 0.);
     
     col = pow(col, vec3(2));
     col *= 0.1;
