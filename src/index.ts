@@ -12,7 +12,7 @@ const drawTheme = (theme, idx) => {
     },
     [
       Theme(theme, idx),
-      idx == 1 ? Thumbnail(im01) : ''
+      //idx == 1 ? Thumbnail(im01) : ''
     ]
   )
 }
