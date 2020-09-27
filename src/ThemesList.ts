@@ -4,7 +4,7 @@ export default [
     "Pattern",
     "Sound",
     "Monochromatic",
-    "3",
+    "Three",
     "Painting",
     "Vasarely",
     "Diffusion",
