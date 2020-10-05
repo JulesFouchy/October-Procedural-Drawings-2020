@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "cross-env DEBUG=true parcel ./src/index.html",
     "prebuild": "rmdir docs /s /q",
-    "build": "parcel build ./src/index.html --out-dir docs --public-url ./"
+    "build": "parcel build ./src/index.html ./src/05_Monochromatic.html --out-dir docs --public-url ./"
   },
   "repository": {
     "type": "git",
