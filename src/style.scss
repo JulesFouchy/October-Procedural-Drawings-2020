@@ -11,6 +11,14 @@ body {
     z-index: -999;
 }
 
+#defaultCanvas1 {
+    position: absolute;
+    left: 50%;
+    margin-left:-250px;
+    top: 50%;
+    margin-top:-250px;
+}
+
 // ----------------------
 // 
 // ----------------------
@@ -33,6 +41,10 @@ body {
 .theme-present {
     color: rgb(255, 33, 37);
     font-weight: bold;
+}
+
+a {
+    color: rgb(255, 218, 69);
 }
 
 .theme-future {

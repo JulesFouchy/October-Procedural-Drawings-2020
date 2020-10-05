@@ -128,7 +128,7 @@ class Tile {
     }
   }
   
-  export default (p: p5) => {
+  new p5((p: p5) => {
   
     let Tiles = []
     let wave: Wave
@@ -170,4 +170,4 @@ class Tile {
       wave = new Wave(p, p.mouseX - p.width/2, p.mouseY - p.height/2, pickAColor(), Tiles.length)
     }
   
-  }
+  })
