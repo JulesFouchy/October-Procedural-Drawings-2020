@@ -11,8 +11,8 @@ const drawTheme = (theme, idx) => {
       class: 'theme-and-thumbnail'
     },
     [
-      idx == 5 ?
-        h('a', {href: "05_Monochromatic.html"}, Theme(theme, idx))
+      Array.isArray(theme) ?
+        h('a', {href: theme[1]}, Theme(theme[0], idx))
         : Theme(theme, idx)
       //idx == 1 ? Thumbnail(im01) : ''
     ]
