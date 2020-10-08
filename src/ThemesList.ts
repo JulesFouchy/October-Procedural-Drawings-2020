@@ -1,9 +1,9 @@
 export default [
-    "Geodesic",
+    ["Geodesic", "01_Geodesic.html"],
     "Rotation",
-    "Pattern",
+    ["Pattern", "03_Pattern.html"],
     "Sound",
-    ["Monochromatic", "https://julesfouchy.github.io/October-Procedural-Drawings-2020/05_Monochromatic.html"],
+    ["Monochromatic", "05_Monochromatic.html"],
     "Three",
     ["Painting", "https://julesfouchy.github.io/impressionist-repainter/"],
     "Vasarely",
