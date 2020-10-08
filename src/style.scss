@@ -20,6 +20,22 @@ body {
 }
 
 // ----------------------
+// Images
+// ----------------------
+.image-alone {
+    max-width: 85%;
+    max-height: 85%;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    overflow: auto;
+    position: fixed;
+    right: 0;
+    top: 0;
+    -o-object-fit: contain;
+    object-fit: contain;
+}
+// ----------------------
 // 
 // ----------------------
 
