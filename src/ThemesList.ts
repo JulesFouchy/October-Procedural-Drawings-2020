@@ -16,7 +16,7 @@ export default [
     "Infinity",
     "Light",
     "Motion",
-    "Tiles",
+    ["Tiles", "https://julesfouchy.github.io/Tiles_ProgTober2020/"],
     "Alignment",
     "Fractal",
     "Blur",
