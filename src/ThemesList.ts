@@ -18,7 +18,7 @@ export default [
     "Motion",
     ["Tiles", "https://julesfouchy.github.io/Tiles_ProgTober2020/"],
     "Alignment",
-    "Fractal",
+    ["Fractal", "https://julesfouchy.github.io/ProgTober2020_Fractal/"],
     "Blur",
     "Inverted",
     "Negative",
