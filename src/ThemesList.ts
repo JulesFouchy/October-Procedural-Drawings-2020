@@ -6,7 +6,7 @@ export default [
     ["Monochromatic", "05_Monochromatic.html"],
     "Three",
     ["Painting", "https://julesfouchy.github.io/impressionist-repainter/"],
-    "Vasarely",
+    ["Vasarely", "08_Vasarely.html"],
     "Diffusion",
     "Sine Wave",
     "Cube",
