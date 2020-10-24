@@ -9,7 +9,7 @@ export default [
     ["Vasarely", "08_Vasarely.html"],
     "Diffusion",
     "Sine Wave",
-    "Cube",
+    ["Cube", "11_Cube.html"],
     "L-system",
     "Sky",
     "Chaos",
