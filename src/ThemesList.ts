@@ -21,7 +21,7 @@ export default [
     ["Fractal", "https://julesfouchy.github.io/ProgTober2020_Fractal/"],
     "Blur",
     "Inverted",
-    "Negative",
+    ["Negative", "https://julesfouchy.github.io/ProgTober2020_Negative/"],
     "Particles",
     "Ray",
     "Snow",
