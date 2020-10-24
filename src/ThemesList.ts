@@ -28,7 +28,7 @@ export default [
     "Circles",
     "Tree",
     "Symmetry",
-    "Distortion",
+    ["Distortion", "30_Distortion.html"],
     "Fireworks",
     //"Repetition",
     //"Rosace",
