@@ -1,6 +1,6 @@
 export default [
     ["Geodesic", "01_Geodesic.html"],
-    "Rotation",
+    ["Rotation", "https://www.shadertoy.com/view/3sycDy"],
     ["Pattern", "03_Pattern.html"],
     "Sound",
     ["Monochromatic", "05_Monochromatic.html"],
