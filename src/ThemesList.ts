@@ -8,7 +8,7 @@ export default [
     ["Painting", "https://julesfouchy.github.io/impressionist-repainter/"],
     ["Vasarely", "08_Vasarely.html"],
     "Diffusion",
-    "Sine Wave",
+    ["Sine Wave", "10_SineWave.html"],
     ["Cube", "11_Cube.html"],
     ["L-system", "12_LSystem.html"],
     "Sky",
