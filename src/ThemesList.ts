@@ -20,7 +20,7 @@ export default [
     ["Alignment", "19_Alignment"],
     ["Fractal", "https://julesfouchy.github.io/ProgTober2020_Fractal/"],
     "Blur",
-    "Inverted",
+    ["Inverted", "22_Inverted.html"],
     ["Negative", "https://julesfouchy.github.io/ProgTober2020_Negative/"],
     "Particles",
     "Ray",
