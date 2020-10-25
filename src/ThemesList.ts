@@ -10,7 +10,7 @@ export default [
     "Diffusion",
     "Sine Wave",
     ["Cube", "11_Cube.html"],
-    "L-system",
+    ["L-system", "12_LSystem.html"],
     "Sky",
     "Chaos",
     "Infinity",
