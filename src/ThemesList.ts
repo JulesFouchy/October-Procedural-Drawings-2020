@@ -4,7 +4,7 @@ export default [
     ["Pattern", "03_Pattern.html"],
     "Sound",
     ["Monochromatic", "05_Monochromatic.html"],
-    "Three",
+    ["Three", "06_Three.html"],
     ["Painting", "https://julesfouchy.github.io/impressionist-repainter/"],
     ["Vasarely", "08_Vasarely.html"],
     "Diffusion",
