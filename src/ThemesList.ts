@@ -25,7 +25,7 @@ export default [
     "Particles",
     "Ray",
     "Snow",
-    "Circles",
+    ["Circles", "27_Circles.html"],
     "Tree",
     "Symmetry",
     ["Distortion", "30_Distortion.html"],

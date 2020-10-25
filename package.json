@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "cross-env DEBUG=true parcel ./src/index.html",
     "prebuild": "rmdir docs /s /q",
-    "build": "parcel build ./src/index.html ./src/01_Geodesic.html ./src/03_Pattern.html ./src/05_Monochromatic.html ./src/06_Three.html ./src/08_Vasarely.html ./src/10_SineWave.html ./src/11_Cube.html ./src/12_LSystem.html ./src/13_Sky.html ./src/19_Alignment.html ./src/22_Inverted.html ./src/30_Distortion.html --out-dir docs --public-url ./"
+    "build": "parcel build ./src/index.html ./src/01_Geodesic.html ./src/03_Pattern.html ./src/05_Monochromatic.html ./src/06_Three.html ./src/08_Vasarely.html ./src/10_SineWave.html ./src/11_Cube.html ./src/12_LSystem.html ./src/13_Sky.html ./src/19_Alignment.html ./src/22_Inverted.html ./src/27_Circles.html ./src/30_Distortion.html --out-dir docs --public-url ./"
   },
   "repository": {
     "type": "git",
