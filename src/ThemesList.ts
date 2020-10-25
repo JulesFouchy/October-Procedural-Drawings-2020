@@ -11,7 +11,7 @@ export default [
     ["Sine Wave", "10_SineWave.html"],
     ["Cube", "11_Cube.html"],
     ["L-system", "12_LSystem.html"],
-    "Sky",
+    ["Sky", "13_Sky.html"],
     "Chaos",
     "Infinity",
     "Light",
